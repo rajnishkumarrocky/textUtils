@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextUtils</title>
+</head>
+<body>
+<h1> This is the text Analyazar, Enter your text below</h1>
+<form action="/analyze" method="get">
+    <textarea name="text" style='margin: 0px; height: 182px; width: 632px;'></textarea><br>
+    <fieldset id="group1">
+    <input type="radio" name="removepuch" id="removepuch">
+        <label for="removepuch">Remove the punctuation</label><br>
+    <input type="radio" name="uppercase" id="uppercase">
+        <label for="uppercase">TO ALL UPPER CASE</label><br>
+    <input type="radio" name="newlineremove" id="newlineremove">
+        <label for="newlineremove">New Line Remover</label><br>
+    <input type="radio" name="extraspaceremove" id="extraspaceremove">
+        <label for="extraspaceremove">Extra space Remover</label><br>
+    <input type="radio" name="charcount" id="charcount">
+        <label for="charcount">Count the no of Char</label><br>
+    </fieldset>
+    <button type="submit">Analyze Text</button>
+
+</form>
+</body>
+</html>
